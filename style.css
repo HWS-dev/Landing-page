@@ -13,6 +13,7 @@ html {
 
   display:  flex;
   flex-wrap: wrap;
+  text-align: center;
 
 }
 
@@ -45,7 +46,7 @@ h1 {
   margin-left: 0px;
   margin-top: 50px;
   font-weight: bold;
-  font-size: 12vw;
+  font-size: 18vw;
   border-bottom: 3px solid #BDE9F8;
   display: inline-block;
   max-width: 750px;
@@ -114,7 +115,7 @@ h1 {
 
 #myButton{
   margin-top: 150px;
-  text-align: left;
+  /*text-align: left;*/
   display: inline-block;
 /*  border-top: 3px solid #DEFBFE;*/
   width: 300px;
@@ -137,7 +138,9 @@ h1 {
   padding:  1vw 2vw; /*increases size*/
   background-color: #DEFBFE;
   border:  3px solid #DEFBFE;
-
+/*  display:  flex;
+  flex-wrap: wrap;
+  justify-content: center; */
 }
 
 
@@ -164,13 +167,15 @@ h1 {
 hr {
 border: 2px solid snow;
 border-color: #DEFBFE;
-max-width: 100px;
-margin-left: 100px;
+/*max-width: 100px;
+margin-left: 65px;*/
+text-align: center;
+/*margin-left: 100px;*/
 opacity: 1;
 /*height: 10px;*/
-  display:  flex;
+/*  display:  flex;
   flex-wrap: wrap;
   justify-content: center; 
-
+*/
 }
 
